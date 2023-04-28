@@ -1,0 +1,105 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.chat__section{
+    border: 2px solid white;
+    border-radius: 20px;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(white, rgb(67, 254, 238));
+    font-family: 'Roboto', sans-serif;
+}
+section.chat__section {
+    width: 800px;
+    max-width: 90%;
+    background:transparent;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.brand {
+    padding: 20px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+img{
+    width:"50px";
+    height:auto;
+
+    /* align-items: center; */
+}
+.brand h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #444;
+    /* margin-left: 10px; */
+    display: block;
+    width: auto;
+}
+.message__area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+
+    
+}
+textarea{
+    margin:10px;
+}
+.btn{
+    width: 15%;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+textarea {
+    width: 80%;
+    border: none;
+    padding: 20px;
+    bottom: 0%;
+    font-size: 16px;
+    outline: none;
+    background: #FBFBFB;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.message {
+    padding: 20px; 
+    border-radius: 6px; 
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming {
+    background: #8F8BE8;
+    color: #fff; 
+    font-size: 30px; 
+}
+.outgoing {
+    background: #e9eafd;
+    color: #787986;
+    margin-left: auto;
+    font-size: 30px; 
+}
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 2px;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
