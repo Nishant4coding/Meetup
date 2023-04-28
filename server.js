@@ -2,10 +2,10 @@ const express = require('express')
 // const { hostname } = require('os')
 const app = express()
 const http = require('http').createServer(app)
-const hostname="0.0.0.0";
+// const hostname="0.0.0.0";
 const PORT = process.env.PORT || 5000
 
-http.listen(PORT,hostname, () => {
+http.listen(PORT, () => {
     console.log(`Listening on port  ${PORT}`)
 })
 
