@@ -1,6 +1,7 @@
 const socket = io()
 let name;
-let textarea = document.querySelector('#textarea')
+let textarea = document.querySelector('textarea')
+let button = document.getElementById('submit')
 let messageArea = document.querySelector('.message__area')
 do {
     name = prompt('Please enter your name: ')
@@ -50,4 +51,9 @@ function scrollToBottom() {
     messageArea.scrollTop = messageArea.scrollHeight
 }
 
-
+submit.addEventListener("click", function(e) {
+    let textboxValue = textarea.value;
+    // sendMessage(message)
+    sendMessage(textboxValue)
+    console.log(textboxValue)
+  });

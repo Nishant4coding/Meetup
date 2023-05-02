@@ -74,14 +74,14 @@ section.chat__section {
 /* textarea{
     margin:10px;
 } */
-.btn{
+button{
     width: 15%;
     height: 50px;
     border: 2px solid white;
     border-radius: 10px;
 }
-textarea {
-    margin: 10px;
+input {
+    margin-bottom: 10px;
     border: none;
     padding: 20px;
     /* bottom: 90%; */
@@ -155,9 +155,10 @@ textarea {
         margin: 0%;
         padding: 5px;
     }
-    textarea{
-        width: 70%;
-        margin-left: 8%;
+    input{
+        width: 60%;
+        height: 8px;
+        /* margin-left: 8%; */
     }
     .brand h1{
         font-size: 15px;
@@ -167,5 +168,11 @@ textarea {
     }
     .message{
         max-width: 50%;
+    }
+    button{
+        width: 20%;
+        /* height: 50px; */
+        border: 2px solid white;
+        border-radius: 10px;
     }
 }
