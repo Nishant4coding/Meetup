@@ -157,7 +157,7 @@ input {
     }
     input{
         width: 60%;
-        height: 8px;
+        height: 6px;
         /* margin-left: 8%; */
     }
     .brand h1{
@@ -174,5 +174,14 @@ input {
         /* height: 50px; */
         border: 2px solid white;
         border-radius: 10px;
+    }
+    body {
+       
+        /* align-items: center;
+        justify-content: center; */
+        min-height: 85fvh;
+        /* max-height: 100vh; */
+         /* background-color:  rgb(67, 254, 238) */
+        /* font-family: 'Roboto', sans-serif; */
     }
 }
