@@ -1,6 +1,6 @@
 const socket = io()
 let name;
-let textarea = document.querySelector('textarea')
+let textarea = document.getElementById('textarea')
 let button = document.getElementById('submit')
 let messageArea = document.querySelector('.message__area')
 do {
