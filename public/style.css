@@ -75,7 +75,7 @@ section.chat__section {
     margin:10px;
 } */
 button{
-    width: 25%;
+    width: 15%;
     height: 60px;
     border: 2px solid white;
     border-radius: 10px;
@@ -93,9 +93,9 @@ input {
     border: 2px solid white;
     border-radius: 10px;
     /* margin-right: 100px; */
-    width: 70%;
+    width: 74%;
     margin-left: 1.8%;
-}
+}   
 
 .message {
     padding: 10px; 
