@@ -111,7 +111,7 @@ input {
     border: 2px solid black;
     color: #000000; 
     font-size: 20px; 
-    min-width: 30%;
+    min-width: 20%;
 }
 .outgoing {
     background: rgb(220, 253, 255, 0.5);
