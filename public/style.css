@@ -102,6 +102,8 @@ input {
     margin-bottom: 20px;
     max-width: 300px;
     position: relative;
+    word-wrap: break-word;
+    max-width: calc(85% - 20px);
 
 
 }
