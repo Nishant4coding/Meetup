@@ -75,13 +75,14 @@ section.chat__section {
     margin:10px;
 } */
 button{
-    width: 15%;
-    height: 50px;
+    width: 25%;
+    height: 60px;
     border: 2px solid white;
     border-radius: 10px;
 }
 input {
     margin-bottom: 10px;
+    height: 18px;
     border: none;
     padding: 20px;
     /* bottom: 90%; */
@@ -92,7 +93,7 @@ input {
     border: 2px solid white;
     border-radius: 10px;
     /* margin-right: 100px; */
-    width: 90%;
+    width: 70%;
     margin-left: 1.8%;
 }
 
